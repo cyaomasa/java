@@ -1,0 +1,1864 @@
+!SESSION 2023-09-18 09:18:59.929 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/ec2-user/environment/.c9/Java/redhat.java/jdt_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:19:05.361
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:19:05.892
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:19:06.161
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:19:06.168
+!MESSAGE Initializing Java Language Server 1.13.0.202206301619
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:19:06.313
+!MESSAGE Setting java.home /usr/lib/jvm/java-11-amazon-corretto.x86_64 as default global VM
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:19:06.387
+!MESSAGE Default VM Install changed from  1695028746276-/opt/c9/dependencies/redhat.java@linux-x64/3766f5fd94863af1f93a836b48f61b86550fca34421e1cb7c02cc2994853a1b56bdc5769dfcbb19c20591ed10c7b96e8a98fb5fa30ca65678cb6a415ac3c3f13/jre/17.0.3-linux-x86_64 to 1695028746313-/usr/lib/jvm/java-11-amazon-corretto.x86_64
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:19:06.436
+!MESSAGE JVM Runtimes changed, saving new configuration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:19:06.454
+!MESSAGE Installed reference:file:/home/ec2-user/.c9/dependencies/vscode-java-debug/049051e8875e6afd66d7731a3157a0bdfb452e0d60b1bb17594d799a0563db1892d762ebfc87ad6bde21b9fb1645b0438889445c68b3173c21f5fa4cccd9aa44/server/com.microsoft.java.debug.plugin-0.36.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:19:06.487
+!MESSAGE Started reference:file:/home/ec2-user/.c9/dependencies/vscode-java-debug/049051e8875e6afd66d7731a3157a0bdfb452e0d60b1bb17594d799a0563db1892d762ebfc87ad6bde21b9fb1645b0438889445c68b3173c21f5fa4cccd9aa44/server/com.microsoft.java.debug.plugin-0.36.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:19:06.493
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:19:06.493
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:19:06.517
+!MESSAGE Wait for AutoBuildOffJob start
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:19:06.540
+!MESSAGE Wait for AutoBuildOffJob end 23ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:19:06.540
+!MESSAGE Starting org.eclipse.m2e.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:19:06.541
+!MESSAGE Started org.eclipse.m2e.core 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:19:06.541
+!MESSAGE ProjectRegistryRefreshJob finished 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:19:06.542
+!MESSAGE Starting org.eclipse.buildship.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:19:06.610
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:19:06.610
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:19:06.626
+!MESSAGE Started org.eclipse.buildship.core 84ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:19:08.004
+!MESSAGE LoadingGradleVersionJob finished 1378ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:19:08.111
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:19:08.121
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:19:08.573
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:19:10.983
+!MESSAGE Workspace initialized in 2976ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:19:11.072
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:19:11.073
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:19:11.136
+!MESSAGE >> New configuration: {java={debug={logLevel=warn, settings={showHex=false, showStaticVariables=false, showQualifiedNames=false, showLogicalStructure=true, showToString=true, maxStringLength=0.0, numericPrecision=0.0, hotCodeReplace=manual, enableRunDebugCodeLens=true, forceBuildBeforeLaunch=true, onBuildFailureProceed=false, console=integratedTerminal, exceptionBreakpoint={skipClasses=[]}, stepping={skipClasses=[], skipSynthetics=false, skipStaticInitializers=false, skipConstructors=false}, jdwp={limitOfVariablesPerJdwpRequest=100.0, requestTimeout=3000.0}, vmArgs=}}, silentNotification=false, home=/usr/lib/jvm/java-11-amazon-corretto.x86_64, jdt={ls={java={home=null}, vmargs=-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m, lombokSupport={enabled=true}}}, errors={incompleteClasspath={severity=warning}}, configuration={updateBuildConfiguration=automatic, maven={userSettings=null, globalSettings=null, notCoveredPluginExecutionSeverity=warning}, workspaceCacheLimit=90.0, runtimes=[], checkProjectSettingsExclusions=false}, trace={server=off}, import={maven={enabled=true}, gradle={enabled=true, wrapper={enabled=true}, version=null, home=null, java={home=null}, offline={enabled=false}, arguments=null, jvmArguments=null, user={home=null}}, exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**], generatesMetadataFilesAtProjectRoot=false}, maven={downloadSources=false, updateSnapshots=false}, eclipse={downloadSources=false}, signatureHelp={enabled=false, description={enabled=false}}, project={referencedLibraries=[lib/**/*.jar], importOnFirstTimeStartup=automatic, importHint=true, resourceFilters=[node_modules, .git], encoding=ignore}, contentProvider={preferred=null}, autobuild={enabled=true}, maxConcurrentBuilds=1.0, completion={maxResults=0.0, enabled=true, guessMethodArguments=false, favoriteStaticMembers=[org.junit.Assert.*, org.junit.Assume.*, org.junit.jupiter.api.Assertions.*, org.junit.jupiter.api.Assumptions.*, org.junit.jupiter.api.DynamicContainer.*, org.junit.jupiter.api.DynamicTest.*, org.mockito.Mockito.*, org.mockito.ArgumentMatchers.*, org.mockito.Answers.*], filteredTypes=[java.awt.*, com.sun.*, sun.*, jdk.*, org.graalvm.*, io.micrometer.shaded.*], importOrder=[java, javax, org, com]}, codeGeneration={hashCodeEquals={useJava7Objects=false, useInstanceof=false}, useBlocks=false, generateComments=false, insertionLocation=afterCursor}, server={launchMode=Hybrid}, sources={organizeImports={starThreshold=99.0, staticStarThreshold=99.0}}, imports={gradle={wrapper={checksums=[]}}}, references={includeAccessors=true, includeDecompiledSources=true}, typeHierarchy={lazyLoad=false}, settings={url=null}, symbols={includeSourceMethodDeclarations=false}, quickfix={showAt=line}, format={enabled=false, settings={url=false, profile=false}, comments={enabled=false}, onType={enabled=false}}, progressReports={enabled=false}, showBuildStatusOnStart={enabled=false}, saveActions={organizeImports=false}, semanticHighlighting={enabled=false}, foldingRange={enabled=false}, selectionRange={enabled=false}, templates={fileHeader=false, typeComment=false}, recommendations={dependency={analytics={show=false}}}, referencesCodeLens={enabled=false}, implementationsCodeLens={enabled=false}, inlayHints={parameterNames={enabled=false, exclusions=false}}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:19:11.153
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:19:11.895
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:19:11.902
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:19:11.905
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:19:11.939
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:19:12.700
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:19:12.912
+!MESSAGE >> workspace/executeCommand java.project.getAll
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:19:12.919
+!MESSAGE >> workspace/executeCommand java.project.getAll
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:19:12.939
+!MESSAGE >> workspace/executeCommand java.project.getAll
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:19:12.941
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:19:12.950
+!MESSAGE >> workspace/executeCommand java.project.getClasspaths
+
+!ENTRY java-debug 1 0 2023-09-18 09:19:12.976
+!MESSAGE Starting com.microsoft.java.debug.plugin
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:19:13.814
+!MESSAGE begin problem for /sample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:19:13.814
+!MESSAGE 1 problems reported for /sample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:19:13.818
+!MESSAGE Validated 1. Took 649 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:20:44.120
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:20:45.709
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:20:45.741
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:20:45.744
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:20:46.204
+!MESSAGE begin problem for /lesoon1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:20:46.205
+!MESSAGE 1 problems reported for /lesoon1.java
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-09-18 09:20:46.205
+!MESSAGE Offset > length: 1 > 0
+!STACK 0
+org.eclipse.jface.text.BadLocationException: Offset > length: 1 > 0
+	at org.eclipse.jface.text.ListLineTracker.getLineNumberOfOffset(ListLineTracker.java:141)
+	at org.eclipse.jface.text.AbstractLineTracker.getLineNumberOfOffset(AbstractLineTracker.java:155)
+	at org.eclipse.jface.text.AbstractDocument.getLineOfOffset(AbstractDocument.java:872)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.getLineOfOffset(SynchronizableDocument.java:334)
+	at org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:156)
+	at org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:101)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.toRange(JDTUtils.java:860)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.convertRange(BaseDiagnosticsHandler.java:246)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.toDiagnosticsArray(BaseDiagnosticsHandler.java:152)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:130)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:148)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:112)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:285)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:249)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$2.runInWorkspace(BaseDocumentLifeCycleHandler.java:117)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:20:46.257
+!MESSAGE begin problem for /sample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:20:46.257
+!MESSAGE 1 problems reported for /sample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:20:46.258
+!MESSAGE Validated 2. Took 66 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:20:46.379
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:20:49.894
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:20:50.012
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:20:50.062
+!MESSAGE Reconciled 1. Took 36 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:20:50.099
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:20:50.231
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:20:50.256
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:20:50.554
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:20:50.593
+!MESSAGE begin problem for /lesoon1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:20:50.594
+!MESSAGE 7 problems reported for /lesoon1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:20:50.623
+!MESSAGE begin problem for /sample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:20:50.623
+!MESSAGE 1 problems reported for /sample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:20:50.625
+!MESSAGE Validated 2. Took 112 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:20:50.905
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:20:51.117
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:20:51.187
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:20:51.262
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:20:51.273
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:20:51.420
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:20:51.434
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:20:51.743
+!MESSAGE begin problem for /lesoon1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:20:51.743
+!MESSAGE 7 problems reported for /lesoon1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:20:51.751
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:20:51.773
+!MESSAGE begin problem for /sample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:20:51.773
+!MESSAGE 1 problems reported for /sample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:20:51.778
+!MESSAGE Validated 2. Took 65 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:20:52.353
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:20:52.546
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:21:04.262
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:21:04.271
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:21:04.296
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:21:04.565
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:21:06.236
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:21:06.260
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:21:06.314
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:21:06.438
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:21:06.445
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:21:06.693
+!MESSAGE begin problem for /lesoon1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:21:06.693
+!MESSAGE 6 problems reported for /lesoon1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:21:06.751
+!MESSAGE begin problem for /sample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:21:06.751
+!MESSAGE 1 problems reported for /sample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:21:06.752
+!MESSAGE Validated 2. Took 91 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:21:06.897
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:21:06.898
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:21:06.903
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:21:06.908
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:21:06.944
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:21:06.975
+!MESSAGE Reconciled 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:21:06.980
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:21:07.110
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:21:07.113
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:21:07.356
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:21:07.364
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:21:07.391
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:21:07.471
+!MESSAGE begin problem for /lesoon1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:21:07.472
+!MESSAGE 8 problems reported for /lesoon1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:21:07.513
+!MESSAGE begin problem for /sample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:21:07.513
+!MESSAGE 1 problems reported for /sample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:21:07.514
+!MESSAGE Validated 2. Took 100 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:21:07.643
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:21:07.776
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:21:07.994
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:21:08.084
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:21:08.084
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:21:08.098
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:21:08.437
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:21:08.527
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:21:08.528
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:21:08.559
+!MESSAGE Reconciled 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:21:08.638
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:21:08.643
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:21:09.078
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:21:09.117
+!MESSAGE begin problem for /lesoon1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:21:09.118
+!MESSAGE 11 problems reported for /lesoon1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:21:09.166
+!MESSAGE begin problem for /sample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:21:09.167
+!MESSAGE 1 problems reported for /sample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:21:09.169
+!MESSAGE Validated 2. Took 209 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:21:09.173
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:21:09.174
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:21:09.179
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:21:09.242
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:21:09.288
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:21:09.291
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:21:09.502
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:21:09.507
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:21:09.758
+!MESSAGE begin problem for /lesoon1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:21:09.758
+!MESSAGE 12 problems reported for /lesoon1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:21:09.775
+!MESSAGE begin problem for /sample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:21:09.776
+!MESSAGE 1 problems reported for /sample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:21:09.776
+!MESSAGE Validated 2. Took 84 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:21:09.823
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:21:09.933
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:21:09.938
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:21:09.942
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:21:09.964
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:21:10.180
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:21:10.235
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:22:02.936
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:22:02.943
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:22:03.235
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:22:03.273
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:22:03.307
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:22:03.312
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:22:03.444
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:22:03.450
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:22:03.702
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:22:03.710
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:22:03.739
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:22:03.748
+!MESSAGE begin problem for /lesoon1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:22:03.748
+!MESSAGE 7 problems reported for /lesoon1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:22:03.785
+!MESSAGE begin problem for /sample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:22:03.785
+!MESSAGE 1 problems reported for /sample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:22:03.789
+!MESSAGE Validated 2. Took 80 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:22:04.013
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:22:04.021
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:22:04.129
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:22:04.330
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:22:05.587
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:22:05.657
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:22:05.664
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:22:05.795
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:22:05.801
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:22:06.018
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:22:06.060
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:22:06.101
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:22:06.368
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:22:06.372
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:22:06.382
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:22:06.391
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:22:06.401
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:22:06.443
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:22:06.576
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:22:06.581
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:22:06.860
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:22:06.864
+!MESSAGE begin problem for /lesoon1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:22:06.865
+!MESSAGE 8 problems reported for /lesoon1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:22:06.898
+!MESSAGE begin problem for /sample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:22:06.899
+!MESSAGE 1 problems reported for /sample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:22:06.901
+!MESSAGE Validated 2. Took 59 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:22:07.247
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:22:07.473
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:22:07.497
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:22:07.499
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:22:07.541
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:22:07.791
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:22:08.245
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:22:08.250
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:22:08.530
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:22:09.033
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:22:09.101
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:22:09.119
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:22:09.557
+!MESSAGE begin problem for /lesoon1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:22:09.557
+!MESSAGE 1 problems reported for /lesoon1.java
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-09-18 09:22:09.557
+!MESSAGE BadLocationException
+!STACK 0
+org.eclipse.jface.text.BadLocationException
+	at org.eclipse.jface.text.TreeLineTracker.fail(TreeLineTracker.java:1054)
+	at org.eclipse.jface.text.TreeLineTracker.lineByOffset(TreeLineTracker.java:268)
+	at org.eclipse.jface.text.TreeLineTracker.getLineNumberOfOffset(TreeLineTracker.java:1122)
+	at org.eclipse.jface.text.AbstractLineTracker.getLineNumberOfOffset(AbstractLineTracker.java:155)
+	at org.eclipse.jface.text.AbstractDocument.getLineOfOffset(AbstractDocument.java:872)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.getLineOfOffset(SynchronizableDocument.java:334)
+	at org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:156)
+	at org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:101)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.toRange(JDTUtils.java:860)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.convertRange(BaseDiagnosticsHandler.java:246)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.toDiagnosticsArray(BaseDiagnosticsHandler.java:152)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:130)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:148)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:112)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:285)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:249)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$2.runInWorkspace(BaseDocumentLifeCycleHandler.java:117)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:22:09.593
+!MESSAGE begin problem for /sample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:22:09.594
+!MESSAGE 1 problems reported for /sample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:22:09.599
+!MESSAGE Validated 2. Took 48 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:22:09.898
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:22:10.125
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:22:10.486
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:22:10.553
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:22:10.571
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:22:10.692
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:22:10.696
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:22:11.008
+!MESSAGE begin problem for /lesoon1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:22:11.009
+!MESSAGE 1 problems reported for /lesoon1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:22:11.024
+!MESSAGE begin problem for /sample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:22:11.024
+!MESSAGE 1 problems reported for /sample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:22:11.025
+!MESSAGE Validated 2. Took 22 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:22:11.112
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:22:11.844
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:22:11.847
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:22:12.133
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:23:54.284
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:23:54.688
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:23:54.761
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:23:54.765
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:23:54.889
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:23:54.891
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:23:55.175
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:23:55.282
+!MESSAGE begin problem for /lesoon1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:23:55.282
+!MESSAGE 1 problems reported for /lesoon1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:23:55.318
+!MESSAGE begin problem for /sample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:23:55.318
+!MESSAGE 1 problems reported for /sample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:23:55.320
+!MESSAGE Validated 2. Took 109 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:23:55.323
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:23:55.324
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:23:55.331
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:23:55.575
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:23:55.579
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:23:55.608
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:23:55.642
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:23:55.809
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:23:55.880
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:24:00.686
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:24:05.778
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:24:05.806
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:24:05.809
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:24:06.082
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:24:06.928
+!MESSAGE >> workspace/executeCommand vscode.java.updateDebugSettings
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:24:06.989
+!MESSAGE >> java/buildWorkspace (incremental)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:24:07.519
+!MESSAGE >> java/buildWorkspace (incremental)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:24:08.018
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:24:08.029
+!MESSAGE >> workspace/executeCommand vscode.java.resolveClasspath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:24:08.047
+!MESSAGE >> workspace/executeCommand vscode.java.resolveJavaExecutable
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:24:08.061
+!MESSAGE >> workspace/executeCommand vscode.java.checkProjectSettings
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:24:08.071
+!MESSAGE >> workspace/executeCommand vscode.java.inferLaunchCommandLength
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:24:08.114
+!MESSAGE >> workspace/executeCommand vscode.java.startDebugSession
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:24:08.536
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:24:08.540
+!MESSAGE >> workspace/executeCommand vscode.java.resolveClasspath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:24:08.547
+!MESSAGE >> workspace/executeCommand vscode.java.resolveJavaExecutable
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:24:08.549
+!MESSAGE >> workspace/executeCommand vscode.java.checkProjectSettings
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:24:08.551
+!MESSAGE >> workspace/executeCommand vscode.java.inferLaunchCommandLength
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:24:09.732
+!MESSAGE >> workspace/executeCommand vscode.java.fetchUsageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:24:24.005
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:24:36.406
+!MESSAGE >> java/buildWorkspace (incremental)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:24:37.411
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:24:37.416
+!MESSAGE >> workspace/executeCommand vscode.java.resolveClasspath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:24:37.429
+!MESSAGE >> workspace/executeCommand vscode.java.resolveJavaExecutable
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:24:37.433
+!MESSAGE >> workspace/executeCommand vscode.java.checkProjectSettings
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:24:37.438
+!MESSAGE >> workspace/executeCommand vscode.java.inferLaunchCommandLength
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:24:37.462
+!MESSAGE >> workspace/executeCommand vscode.java.startDebugSession
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:24:38.519
+!MESSAGE >> workspace/executeCommand vscode.java.fetchUsageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:24:45.419
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:24:45.421
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:24:45.447
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:24:45.697
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:24:57.278
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:24:57.281
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:24:57.292
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:24:57.559
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:29:58.780
+!MESSAGE >> java/buildWorkspace (incremental)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:29:59.786
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:29:59.789
+!MESSAGE >> workspace/executeCommand vscode.java.resolveClasspath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:29:59.794
+!MESSAGE >> workspace/executeCommand vscode.java.resolveJavaExecutable
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:29:59.797
+!MESSAGE >> workspace/executeCommand vscode.java.checkProjectSettings
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:29:59.798
+!MESSAGE >> workspace/executeCommand vscode.java.inferLaunchCommandLength
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:29:59.823
+!MESSAGE >> workspace/executeCommand vscode.java.startDebugSession
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:30:00.947
+!MESSAGE >> workspace/executeCommand vscode.java.fetchUsageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:30:20.552
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:30:20.555
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:30:20.574
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:30:20.851
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:30:21.633
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:30:21.660
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:30:21.798
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:30:22.082
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:30:24.880
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:30:28.155
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:30:30.363
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:30:31.823
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:30:31.844
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:30:32.052
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:30:32.056
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:30:32.061
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:30:32.121
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:30:32.133
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:30:32.346
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:30:32.349
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:30:32.359
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:30:32.388
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:30:32.416
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:30:32.431
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:30:32.554
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:30:32.556
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:30:32.812
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:30:32.821
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:30:32.830
+!MESSAGE begin problem for /lesoon1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:30:32.830
+!MESSAGE 2 problems reported for /lesoon1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:30:32.844
+!MESSAGE begin problem for /sample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:30:32.844
+!MESSAGE 1 problems reported for /sample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:30:32.845
+!MESSAGE Validated 2. Took 27 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:30:32.845
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:30:33.125
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:30:33.692
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:30:33.694
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:30:33.697
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:30:33.760
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:30:33.770
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:30:33.776
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:30:33.818
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:30:33.902
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:30:33.923
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:30:33.979
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:30:34.225
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:30:34.238
+!MESSAGE begin problem for /lesoon1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:30:34.241
+!MESSAGE This method has a constructor name is of type MethodButWithConstructorName
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:30:34.241
+!MESSAGE 2 problems reported for /lesoon1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:30:34.275
+!MESSAGE begin problem for /sample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:30:34.275
+!MESSAGE 1 problems reported for /sample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:30:34.278
+!MESSAGE Validated 2. Took 67 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:30:34.410
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:30:34.435
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:30:34.577
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:30:34.726
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:30:34.780
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:30:34.909
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:30:34.912
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:30:34.978
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:30:35.114
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:30:35.117
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:30:35.186
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:30:35.393
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:30:39.339
+!MESSAGE >> java/buildWorkspace (incremental)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:30:40.351
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:30:40.354
+!MESSAGE >> workspace/executeCommand vscode.java.resolveClasspath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:30:40.358
+!MESSAGE >> workspace/executeCommand vscode.java.resolveJavaExecutable
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:30:40.360
+!MESSAGE >> workspace/executeCommand vscode.java.checkProjectSettings
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:30:40.362
+!MESSAGE >> workspace/executeCommand vscode.java.inferLaunchCommandLength
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:30:40.392
+!MESSAGE >> workspace/executeCommand vscode.java.startDebugSession
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:30:41.143
+!MESSAGE >> workspace/executeCommand vscode.java.fetchUsageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:30:50.361
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:30:50.388
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:30:50.396
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:30:50.668
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:30:53.338
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:03.652
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:05.271
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:06.422
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:06.492
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:06.652
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:06.654
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:06.660
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:06.721
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:06.723
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:06.862
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:06.878
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:07.078
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:07.096
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:07.107
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:07.151
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:07.161
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:07.293
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:07.295
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:07.527
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:07.530
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:07.562
+!MESSAGE begin problem for /lesoon1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:07.562
+!MESSAGE 2 problems reported for /lesoon1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:07.578
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:07.583
+!MESSAGE begin problem for /sample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:07.583
+!MESSAGE 1 problems reported for /sample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:07.588
+!MESSAGE Validated 2. Took 40 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:08.024
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:08.056
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:08.094
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:08.118
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:08.123
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:08.564
+!MESSAGE begin problem for /lesoon1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:08.564
+!MESSAGE 1 problems reported for /lesoon1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:08.585
+!MESSAGE begin problem for /sample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:08.585
+!MESSAGE 1 problems reported for /sample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:08.586
+!MESSAGE Validated 2. Took 42 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:08.667
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:08.668
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:08.669
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:08.670
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:08.673
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:08.683
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:08.691
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:08.742
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:08.761
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:08.765
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:08.772
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:08.785
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:09.061
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:09.167
+!MESSAGE begin problem for /lesoon1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:09.168
+!MESSAGE 1 problems reported for /lesoon1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:09.182
+!MESSAGE begin problem for /sample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:09.182
+!MESSAGE 1 problems reported for /sample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:09.182
+!MESSAGE Validated 2. Took 40 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:09.332
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:09.399
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:09.409
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:09.418
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:09.423
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:09.542
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:09.571
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:09.858
+!MESSAGE begin problem for /lesoon1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:09.858
+!MESSAGE 1 problems reported for /lesoon1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:09.862
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:09.870
+!MESSAGE begin problem for /sample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:09.871
+!MESSAGE 1 problems reported for /sample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:09.871
+!MESSAGE Validated 2. Took 28 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:10.221
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:10.426
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:10.437
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:10.439
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:10.542
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:10.725
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:16.116
+!MESSAGE >> java/buildWorkspace (incremental)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:17.123
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:17.126
+!MESSAGE >> workspace/executeCommand vscode.java.resolveClasspath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:17.134
+!MESSAGE >> workspace/executeCommand vscode.java.resolveJavaExecutable
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:17.136
+!MESSAGE >> workspace/executeCommand vscode.java.checkProjectSettings
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:17.138
+!MESSAGE >> workspace/executeCommand vscode.java.inferLaunchCommandLength
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:17.165
+!MESSAGE >> workspace/executeCommand vscode.java.startDebugSession
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:17.886
+!MESSAGE >> workspace/executeCommand vscode.java.fetchUsageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:30.203
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:30.216
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:30.226
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:30.492
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:31.846
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:31.935
+!MESSAGE Reconciled 1. Took 21 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:31.940
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:31.948
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:31.965
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:32.071
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:32.074
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:32.382
+!MESSAGE begin problem for /lesoon1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:32.382
+!MESSAGE 3 problems reported for /lesoon1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:32.396
+!MESSAGE begin problem for /sample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:32.396
+!MESSAGE 1 problems reported for /sample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:32.397
+!MESSAGE Validated 2. Took 61 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:32.528
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:32.577
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:32.603
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:32.635
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:32.638
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:32.667
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:32.694
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:32.768
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:33.023
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:33.076
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:33.122
+!MESSAGE begin problem for /lesoon1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:33.122
+!MESSAGE 7 problems reported for /lesoon1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:33.147
+!MESSAGE begin problem for /sample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:33.147
+!MESSAGE 1 problems reported for /sample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:33.148
+!MESSAGE Validated 2. Took 93 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:33.287
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:33.322
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:33.356
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:33.368
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:33.370
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:33.379
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:33.442
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:33.500
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:33.544
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:33.830
+!MESSAGE begin problem for /lesoon1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:33.830
+!MESSAGE 7 problems reported for /lesoon1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:33.841
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:33.875
+!MESSAGE begin problem for /sample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:33.875
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:33.879
+!MESSAGE 1 problems reported for /sample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:33.880
+!MESSAGE Validated 2. Took 74 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:33.916
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:34.167
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:34.232
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:34.389
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:36.947
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:36.950
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:36.951
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:36.954
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:36.958
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:37.018
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:37.051
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:37.166
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:37.177
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:37.438
+!MESSAGE begin problem for /lesoon1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:37.447
+!MESSAGE 1 problems reported for /lesoon1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:37.454
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:37.491
+!MESSAGE begin problem for /sample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:37.493
+!MESSAGE 1 problems reported for /sample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:37.494
+!MESSAGE Validated 2. Took 75 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:37.896
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:38.124
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:38.287
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:38.289
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:38.395
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:38.582
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:43.352
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:43.353
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:43.388
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:43.671
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:45.917
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:45.918
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:45.986
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:45.987
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:46.006
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:46.033
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:46.048
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:46.337
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:46.455
+!MESSAGE begin problem for /lesoon1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:46.455
+!MESSAGE 2 problems reported for /lesoon1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:46.474
+!MESSAGE begin problem for /sample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:46.474
+!MESSAGE 1 problems reported for /sample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:46.474
+!MESSAGE Validated 2. Took 38 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:46.816
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:47.024
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:47.052
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:47.120
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:47.126
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:47.144
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:47.607
+!MESSAGE begin problem for /lesoon1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:47.607
+!MESSAGE 1 problems reported for /lesoon1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:47.630
+!MESSAGE begin problem for /sample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:47.630
+!MESSAGE 1 problems reported for /sample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:47.631
+!MESSAGE Validated 2. Took 61 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:47.735
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:47.736
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:47.737
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:47.752
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:47.753
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:47.761
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:47.825
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:47.826
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:47.876
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:47.881
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:47.882
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:47.888
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:48.187
+!MESSAGE begin problem for /lesoon1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:48.187
+!MESSAGE 1 problems reported for /lesoon1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:48.198
+!MESSAGE begin problem for /sample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:48.198
+!MESSAGE 1 problems reported for /sample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:48.201
+!MESSAGE Validated 2. Took 47 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:48.473
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:48.517
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:48.541
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:48.582
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:48.615
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:48.622
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:48.680
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:48.689
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:48.754
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:48.943
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:48.948
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:48.980
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:49.008
+!MESSAGE begin problem for /lesoon1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:49.008
+!MESSAGE This method has a constructor name is of type MethodButWithConstructorName
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:49.009
+!MESSAGE 2 problems reported for /lesoon1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:49.020
+!MESSAGE begin problem for /sample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:49.020
+!MESSAGE 1 problems reported for /sample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:49.023
+!MESSAGE Validated 2. Took 32 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:49.248
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:49.268
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:49.282
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:49.363
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:49.392
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:49.564
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:49.592
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:49.633
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:49.635
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:49.910
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:54.835
+!MESSAGE >> java/buildWorkspace (incremental)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:55.843
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:55.848
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainClass
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:55.884
+!MESSAGE >> workspace/executeCommand vscode.java.resolveClasspath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:55.891
+!MESSAGE >> workspace/executeCommand vscode.java.resolveJavaExecutable
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:55.894
+!MESSAGE >> workspace/executeCommand vscode.java.checkProjectSettings
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:55.896
+!MESSAGE >> workspace/executeCommand vscode.java.inferLaunchCommandLength
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:55.923
+!MESSAGE >> workspace/executeCommand vscode.java.startDebugSession
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-18 09:31:56.579
+!MESSAGE >> workspace/executeCommand vscode.java.fetchUsageData
