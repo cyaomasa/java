@@ -2180,3 +2180,172 @@ Command-line arguments:  -data /home/ec2-user/environment/.c9/Java/redhat.java/j
 
 !ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-21 08:13:28.503
 !MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-21 08:17:14.383
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-21 08:17:17.142
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-21 08:17:17.165
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-21 08:17:17.323
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-21 08:17:17.609
+!MESSAGE begin problem for /lesoon1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-21 08:17:17.610
+!MESSAGE This method has a constructor name is of type MethodButWithConstructorName
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-21 08:17:17.610
+!MESSAGE 2 problems reported for /lesoon1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-21 08:17:17.643
+!MESSAGE begin problem for /keisan1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-21 08:17:17.643
+!MESSAGE 1 problems reported for /keisan1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-21 08:17:17.663
+!MESSAGE begin problem for /ConcatSample1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-21 08:17:17.663
+!MESSAGE 1 problems reported for /ConcatSample1.java
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-09-21 08:17:17.664
+!MESSAGE Offset > length: 1 > 0
+!STACK 0
+org.eclipse.jface.text.BadLocationException: Offset > length: 1 > 0
+	at org.eclipse.jface.text.ListLineTracker.getLineNumberOfOffset(ListLineTracker.java:141)
+	at org.eclipse.jface.text.AbstractLineTracker.getLineNumberOfOffset(AbstractLineTracker.java:155)
+	at org.eclipse.jface.text.AbstractDocument.getLineOfOffset(AbstractDocument.java:872)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.getLineOfOffset(SynchronizableDocument.java:334)
+	at org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:156)
+	at org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:101)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.toRange(JDTUtils.java:860)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.convertRange(BaseDiagnosticsHandler.java:246)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.toDiagnosticsArray(BaseDiagnosticsHandler.java:152)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:130)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:148)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:112)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:285)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:249)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$2.runInWorkspace(BaseDocumentLifeCycleHandler.java:117)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-21 08:17:17.679
+!MESSAGE Validated 3. Took 112 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-21 08:17:17.858
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-21 08:17:22.341
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-21 08:17:22.463
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-21 08:17:22.522
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-21 08:17:22.549
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-21 08:17:22.700
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-21 08:17:22.713
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-21 08:17:22.993
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-21 08:17:23.004
+!MESSAGE begin problem for /lesoon1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-21 08:17:23.015
+!MESSAGE This method has a constructor name is of type MethodButWithConstructorName
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-21 08:17:23.015
+!MESSAGE 2 problems reported for /lesoon1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-21 08:17:23.041
+!MESSAGE begin problem for /keisan1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-21 08:17:23.042
+!MESSAGE 1 problems reported for /keisan1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-21 08:17:23.055
+!MESSAGE begin problem for /ConcatSample1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-21 08:17:23.056
+!MESSAGE 1 problems reported for /ConcatSample1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-21 08:17:23.057
+!MESSAGE Validated 3. Took 84 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-21 08:17:23.363
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-21 08:17:23.517
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-21 08:17:23.560
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-21 08:17:24.236
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-21 08:17:24.293
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-21 08:17:24.324
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-21 08:17:24.474
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-21 08:17:24.477
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-21 08:17:24.716
+!MESSAGE begin problem for /lesoon1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-21 08:17:24.716
+!MESSAGE This method has a constructor name is of type MethodButWithConstructorName
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-21 08:17:24.716
+!MESSAGE 2 problems reported for /lesoon1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-21 08:17:24.737
+!MESSAGE begin problem for /keisan1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-21 08:17:24.737
+!MESSAGE 1 problems reported for /keisan1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-21 08:17:24.768
+!MESSAGE begin problem for /ConcatSample1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-21 08:17:24.768
+!MESSAGE 1 problems reported for /ConcatSample1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-21 08:17:24.770
+!MESSAGE Validated 3. Took 77 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-21 08:17:24.814
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-21 08:17:25.055
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-21 08:17:25.144
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-21 08:17:25.362
+!MESSAGE >> workspace/didChangeWatchedFiles 
