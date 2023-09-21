@@ -16,14 +16,19 @@
 	</natures>
 	<linkedResources>
 		<link>
+			<name>src/keisan1.java</name>
+			<type>1</type>
+			<location>//home/ec2-user/environment/java-lesson/keisan1.java</location>
+		</link>
+		<link>
 			<name>src/lesoon1.java</name>
 			<type>1</type>
-			<location>//home/ec2-user/environment/java-lesson/lesoon1.java</location>
+			<location>/home/ec2-user/environment/java-lesson/lesoon1.java</location>
 		</link>
 		<link>
 			<name>src/sample.java</name>
 			<type>1</type>
-			<location>//home/ec2-user/environment/java-lesson/sample.java</location>
+			<location>/home/ec2-user/environment/java-lesson/sample.java</location>
 		</link>
 	</linkedResources>
 </projectDescription>
