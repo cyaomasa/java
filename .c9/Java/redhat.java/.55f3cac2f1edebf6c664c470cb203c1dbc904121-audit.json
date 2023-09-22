@@ -14,6 +14,21 @@
             "date": 1695356456783,
             "name": "/home/ec2-user/environment/.c9/Java/redhat.java/client.log.2023-09-22",
             "hash": "114766fe83421e0b95b914f4c38fc66b"
+        },
+        {
+            "date": 1695357919413,
+            "name": "/home/ec2-user/environment/.c9/Java/redhat.java/client.log.2023-09-22.1",
+            "hash": "44c5cbbc2869ed84932b37e1698009ea"
+        },
+        {
+            "date": 1695357975660,
+            "name": "/home/ec2-user/environment/.c9/Java/redhat.java/client.log.2023-09-22.2",
+            "hash": "2c3d6db1adf82b073d37657eca359373"
+        },
+        {
+            "date": 1695358019194,
+            "name": "/home/ec2-user/environment/.c9/Java/redhat.java/client.log.2023-09-22.3",
+            "hash": "c89acbc5c160837c44a95580aa3530d3"
         }
     ]
 }

@@ -23,7 +23,12 @@
 		<link>
 			<name>src/Lesson1.java</name>
 			<type>1</type>
-			<location>//home/ec2-user/environment/java-lesson/Lesson1.java</location>
+			<location>//home/ec2-user/environment/java-lesson/Lesson-1/Lesson1.java</location>
+		</link>
+		<link>
+			<name>src/Lesson2.java</name>
+			<type>1</type>
+			<location>//home/ec2-user/environment/java-lesson/Lesson2.java</location>
 		</link>
 		<link>
 			<name>src/keisan1.java</name>
