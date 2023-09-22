@@ -18,17 +18,32 @@
 		<link>
 			<name>src/ConcatSample1.java</name>
 			<type>1</type>
-			<location>//home/ec2-user/environment/java-lesson/ConcatSample1.java</location>
+			<location>/home/ec2-user/environment/java-lesson/ConcatSample1.java</location>
+		</link>
+		<link>
+			<name>src/Lesson1.java</name>
+			<type>1</type>
+			<location>//home/ec2-user/environment/java-lesson/Lesson1.java</location>
 		</link>
 		<link>
 			<name>src/keisan1.java</name>
 			<type>1</type>
-			<location>//home/ec2-user/environment/java-lesson/keisan1.java</location>
+			<location>/home/ec2-user/environment/java-lesson/keisan1.java</location>
+		</link>
+		<link>
+			<name>src/lesoon.java</name>
+			<type>1</type>
+			<location>//home/ec2-user/environment/java-lesson/lesoon.java</location>
 		</link>
 		<link>
 			<name>src/lesoon1.java</name>
 			<type>1</type>
 			<location>/home/ec2-user/environment/java-lesson/lesoon1.java</location>
+		</link>
+		<link>
+			<name>src/lesson1.java</name>
+			<type>1</type>
+			<location>//home/ec2-user/environment/java-lesson/lesson1.java</location>
 		</link>
 		<link>
 			<name>src/sample.java</name>

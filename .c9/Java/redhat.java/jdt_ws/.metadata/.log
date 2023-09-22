@@ -2349,3 +2349,628 @@ org.eclipse.jface.text.BadLocationException: Offset > length: 1 > 0
 
 !ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-21 08:17:25.362
 !MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-21 08:52:01.472
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-21 08:52:02.497
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-21 08:52:02.497
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-21 08:52:02.535
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2023-09-22 04:20:57.681 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/ec2-user/environment/.c9/Java/redhat.java/jdt_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:21:03.678
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:21:04.528
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:21:04.690
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:21:04.699
+!MESSAGE Initializing Java Language Server 1.13.0.202206301619
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:21:04.855
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:21:04.857
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:21:04.858
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:21:04.858
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:21:04.903
+!MESSAGE Starting org.eclipse.m2e.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:21:04.913
+!MESSAGE Started org.eclipse.m2e.core 10ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:21:04.951
+!MESSAGE ProjectRegistryRefreshJob finished 28ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:21:04.952
+!MESSAGE Starting org.eclipse.buildship.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:21:05.088
+!MESSAGE Started org.eclipse.buildship.core 130ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:21:05.099
+!MESSAGE LoadingGradleVersionJob finished 11ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:21:05.199
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:21:08.284
+!MESSAGE Workspace initialized in 3184ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:21:08.330
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:21:08.335
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:21:08.372
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:21:08.375
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:21:08.377
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:21:08.386
+!MESSAGE >> New configuration: {java={debug={logLevel=warn, settings={showHex=false, showStaticVariables=false, showQualifiedNames=false, showLogicalStructure=true, showToString=true, maxStringLength=0.0, numericPrecision=0.0, hotCodeReplace=manual, enableRunDebugCodeLens=true, forceBuildBeforeLaunch=true, onBuildFailureProceed=false, console=integratedTerminal, exceptionBreakpoint={skipClasses=[]}, stepping={skipClasses=[], skipSynthetics=false, skipStaticInitializers=false, skipConstructors=false}, jdwp={limitOfVariablesPerJdwpRequest=100.0, requestTimeout=3000.0}, vmArgs=}}, silentNotification=false, home=/usr/lib/jvm/java-11-amazon-corretto.x86_64, jdt={ls={java={home=null}, vmargs=-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m, lombokSupport={enabled=true}}}, errors={incompleteClasspath={severity=warning}}, configuration={updateBuildConfiguration=automatic, maven={userSettings=null, globalSettings=null, notCoveredPluginExecutionSeverity=warning}, workspaceCacheLimit=90.0, runtimes=[], checkProjectSettingsExclusions=false}, trace={server=off}, import={maven={enabled=true}, gradle={enabled=true, wrapper={enabled=true}, version=null, home=null, java={home=null}, offline={enabled=false}, arguments=null, jvmArguments=null, user={home=null}}, exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**], generatesMetadataFilesAtProjectRoot=false}, maven={downloadSources=false, updateSnapshots=false}, eclipse={downloadSources=false}, signatureHelp={enabled=false, description={enabled=false}}, project={referencedLibraries=[lib/**/*.jar], importOnFirstTimeStartup=automatic, importHint=true, resourceFilters=[node_modules, .git], encoding=ignore}, contentProvider={preferred=null}, autobuild={enabled=true}, maxConcurrentBuilds=1.0, completion={maxResults=0.0, enabled=true, guessMethodArguments=false, favoriteStaticMembers=[org.junit.Assert.*, org.junit.Assume.*, org.junit.jupiter.api.Assertions.*, org.junit.jupiter.api.Assumptions.*, org.junit.jupiter.api.DynamicContainer.*, org.junit.jupiter.api.DynamicTest.*, org.mockito.Mockito.*, org.mockito.ArgumentMatchers.*, org.mockito.Answers.*], filteredTypes=[java.awt.*, com.sun.*, sun.*, jdk.*, org.graalvm.*, io.micrometer.shaded.*], importOrder=[java, javax, org, com]}, codeGeneration={hashCodeEquals={useJava7Objects=false, useInstanceof=false}, useBlocks=false, generateComments=false, insertionLocation=afterCursor}, server={launchMode=Hybrid}, sources={organizeImports={starThreshold=99.0, staticStarThreshold=99.0}}, imports={gradle={wrapper={checksums=[]}}}, references={includeAccessors=true, includeDecompiledSources=true}, typeHierarchy={lazyLoad=false}, settings={url=null}, symbols={includeSourceMethodDeclarations=false}, quickfix={showAt=line}, format={enabled=false, settings={url=false, profile=false}, comments={enabled=false}, onType={enabled=false}}, progressReports={enabled=false}, showBuildStatusOnStart={enabled=false}, saveActions={organizeImports=false}, semanticHighlighting={enabled=false}, foldingRange={enabled=false}, selectionRange={enabled=false}, templates={fileHeader=false, typeComment=false}, recommendations={dependency={analytics={show=false}}}, referencesCodeLens={enabled=false}, implementationsCodeLens={enabled=false}, inlayHints={parameterNames={enabled=false, exclusions=false}}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:21:08.388
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:21:08.392
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:21:09.512
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:21:09.518
+!MESSAGE >> workspace/executeCommand java.project.getAll
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:21:09.521
+!MESSAGE >> workspace/executeCommand java.project.getAll
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:21:09.522
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:21:09.530
+!MESSAGE >> workspace/executeCommand java.project.getClasspaths
+
+!ENTRY java-debug 1 0 2023-09-22 04:21:09.554
+!MESSAGE Starting com.microsoft.java.debug.plugin
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:21:10.094
+!MESSAGE begin problem for /ConcatSample1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:21:10.095
+!MESSAGE 1 problems reported for /ConcatSample1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:21:10.106
+!MESSAGE Validated 1. Took 143 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:22:41.016
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:31:18.046
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:31:18.100
+!MESSAGE Clearing problems for /lesoon1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:31:22.620
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-09-22 04:31:22.622
+!MESSAGE Failed to read package name from file:///home/ec2-user/environment/java-lesson/lesson-1.java
+!STACK 0
+java.io.FileNotFoundException: /home/ec2-user/environment/java-lesson/lesson-1.java (Is a directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(Unknown Source)
+	at java.base/java.io.FileInputStream.<init>(Unknown Source)
+	at com.google.common.io.Files$FileByteSource.openStream(Files.java:130)
+	at com.google.common.io.Files$FileByteSource.read(Files.java:154)
+	at com.google.common.io.ByteSource$AsCharSource.read(ByteSource.java:472)
+	at com.google.common.io.Files.toString(Files.java:254)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.getPackageName(JDTUtils.java:300)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.getFakeCompilationUnit(JDTUtils.java:264)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.resolveCompilationUnit(JDTUtils.java:188)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.resolveCompilationUnit(JDTUtils.java:168)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceEventsHandler.didChangeWatchedFiles(WorkspaceEventsHandler.java:81)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.didChangeWatchedFiles(JDTLanguageServer.java:518)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$0(ParentProcessWatcher.java:130)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-09-22 04:31:22.629
+!MESSAGE Failed to create linked resource from file:///home/ec2-user/environment/java-lesson/lesson-1.java to jdt.ls-java-project
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/jdt.ls-java-project/src/lesson-1.java)[276]: java.lang.Exception: Cannot create linked resource '/jdt.ls-java-project/src/lesson-1.java'.  Files cannot be linked to folders.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.assertLinkRequirements(Resource.java:189)
+	at org.eclipse.core.internal.resources.Resource.createLink(Resource.java:639)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.getFakeCompilationUnit(JDTUtils.java:273)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.resolveCompilationUnit(JDTUtils.java:188)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.resolveCompilationUnit(JDTUtils.java:168)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceEventsHandler.didChangeWatchedFiles(WorkspaceEventsHandler.java:81)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.didChangeWatchedFiles(JDTLanguageServer.java:518)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$0(ParentProcessWatcher.java:130)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+!SUBENTRY 1 org.eclipse.core.resources 4 276 2023-09-22 04:31:22.638
+!MESSAGE Cannot create linked resource '/jdt.ls-java-project/src/lesson-1.java'.  Files cannot be linked to folders.
+!STACK 0
+java.lang.Exception: Cannot create linked resource '/jdt.ls-java-project/src/lesson-1.java'.  Files cannot be linked to folders.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.assertLinkRequirements(Resource.java:189)
+	at org.eclipse.core.internal.resources.Resource.createLink(Resource.java:639)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.getFakeCompilationUnit(JDTUtils.java:273)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.resolveCompilationUnit(JDTUtils.java:188)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.resolveCompilationUnit(JDTUtils.java:168)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceEventsHandler.didChangeWatchedFiles(WorkspaceEventsHandler.java:81)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.didChangeWatchedFiles(JDTLanguageServer.java:518)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$0(ParentProcessWatcher.java:130)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:31:29.323
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:31:36.888
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:31:38.620
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:31:38.644
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:31:38.791
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:31:39.110
+!MESSAGE begin problem for /lesson1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:31:39.113
+!MESSAGE 1 problems reported for /lesson1.java
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-09-22 04:31:39.114
+!MESSAGE Offset > length: 1 > 0
+!STACK 0
+org.eclipse.jface.text.BadLocationException: Offset > length: 1 > 0
+	at org.eclipse.jface.text.ListLineTracker.getLineNumberOfOffset(ListLineTracker.java:141)
+	at org.eclipse.jface.text.AbstractLineTracker.getLineNumberOfOffset(AbstractLineTracker.java:155)
+	at org.eclipse.jface.text.AbstractDocument.getLineOfOffset(AbstractDocument.java:872)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.getLineOfOffset(SynchronizableDocument.java:334)
+	at org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:156)
+	at org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:101)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.toRange(JDTUtils.java:860)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.convertRange(BaseDiagnosticsHandler.java:246)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.toDiagnosticsArray(BaseDiagnosticsHandler.java:152)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:130)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:148)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:112)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:285)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:249)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$2.runInWorkspace(BaseDocumentLifeCycleHandler.java:117)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:31:39.187
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:31:39.197
+!MESSAGE begin problem for /ConcatSample1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:31:39.198
+!MESSAGE 1 problems reported for /ConcatSample1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:31:39.199
+!MESSAGE Validated 2. Took 103 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:31:39.980
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:31:39.996
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:31:40.061
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:31:40.230
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:31:40.261
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:31:40.427
+!MESSAGE begin problem for /lesson1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:31:40.427
+!MESSAGE 1 problems reported for /lesson1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:31:40.458
+!MESSAGE begin problem for /ConcatSample1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:31:40.459
+!MESSAGE 1 problems reported for /ConcatSample1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:31:40.460
+!MESSAGE Validated 2. Took 59 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:31:40.512
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:31:40.526
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:31:40.875
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:31:41.085
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:31:41.303
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:31:41.361
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:31:41.375
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:31:41.545
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:31:41.550
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:31:41.800
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:31:41.882
+!MESSAGE begin problem for /lesson1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:31:41.883
+!MESSAGE 1 problems reported for /lesson1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:31:41.928
+!MESSAGE begin problem for /ConcatSample1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:31:41.929
+!MESSAGE 1 problems reported for /ConcatSample1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:31:41.930
+!MESSAGE Validated 2. Took 119 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:31:42.173
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:31:42.396
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:31:46.817
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:14.110
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:14.112
+!MESSAGE Clearing problems for /lesson1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:14.124
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:14.187
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:14.442
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:14.444
+!MESSAGE Clearing problems for /lesson1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:14.664
+!MESSAGE begin problem for /Lesson1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:14.665
+!MESSAGE 1 problems reported for /Lesson1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:14.731
+!MESSAGE begin problem for /ConcatSample1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:14.732
+!MESSAGE 1 problems reported for /ConcatSample1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:14.732
+!MESSAGE Validated 2. Took 94 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:16.247
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:16.250
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:16.497
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:16.764
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:17.450
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:17.486
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:17.497
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:17.516
+!MESSAGE Reconciled 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:17.526
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:17.563
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:17.567
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:17.817
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:17.984
+!MESSAGE begin problem for /Lesson1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:17.984
+!MESSAGE 2 problems reported for /Lesson1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:18.012
+!MESSAGE begin problem for /ConcatSample1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:18.012
+!MESSAGE 1 problems reported for /ConcatSample1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:18.014
+!MESSAGE Validated 2. Took 48 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:18.308
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:18.368
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:18.377
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:18.416
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:18.459
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:18.534
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:18.569
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:18.867
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:18.923
+!MESSAGE begin problem for /Lesson1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:18.924
+!MESSAGE 1 problems reported for /Lesson1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:18.988
+!MESSAGE begin problem for /ConcatSample1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:18.988
+!MESSAGE 1 problems reported for /ConcatSample1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:18.993
+!MESSAGE Validated 2. Took 174 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:19.183
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:19.240
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:19.721
+!MESSAGE begin problem for /Lesson1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:19.721
+!MESSAGE 1 problems reported for /Lesson1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:19.753
+!MESSAGE begin problem for /ConcatSample1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:19.753
+!MESSAGE 1 problems reported for /ConcatSample1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:19.756
+!MESSAGE Validated 2. Took 65 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:19.787
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:19.845
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:19.865
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:19.875
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:19.881
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:19.882
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:19.905
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:19.911
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:19.954
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:20.215
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:20.313
+!MESSAGE begin problem for /Lesson1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:20.313
+!MESSAGE 1 problems reported for /Lesson1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:20.334
+!MESSAGE begin problem for /ConcatSample1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:20.335
+!MESSAGE 1 problems reported for /ConcatSample1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:20.338
+!MESSAGE Validated 2. Took 41 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:20.650
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:20.879
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:21.233
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:21.244
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:21.308
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:21.323
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:21.331
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:21.474
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:21.493
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:21.733
+!MESSAGE begin problem for /Lesson1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:21.733
+!MESSAGE 1 problems reported for /Lesson1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:21.747
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:21.764
+!MESSAGE begin problem for /ConcatSample1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:21.765
+!MESSAGE 1 problems reported for /ConcatSample1.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:21.767
+!MESSAGE Validated 2. Took 72 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:22.098
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:22.327
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:22.447
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:22.453
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:22.543
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:34:22.720
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:41:35.441
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-09-22 04:42:07.321
+!MESSAGE >> document/codeAction
