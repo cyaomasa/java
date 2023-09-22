@@ -21,14 +21,49 @@
 			<location>/home/ec2-user/environment/java-lesson/ConcatSample1.java</location>
 		</link>
 		<link>
+			<name>src/Lesson1-3.java</name>
+			<type>1</type>
+			<location>//home/ec2-user/environment/java-lesson/Lesson1-3/Lesson1-3.java</location>
+		</link>
+		<link>
+			<name>src/Lesson1.3.java</name>
+			<type>1</type>
+			<location>//home/ec2-user/environment/java-lesson/Lesson1-3/Lesson1.3.java</location>
+		</link>
+		<link>
 			<name>src/Lesson1.java</name>
 			<type>1</type>
 			<location>//home/ec2-user/environment/java-lesson/Lesson-1/Lesson1.java</location>
 		</link>
 		<link>
+			<name>src/Lesson1_3.java</name>
+			<type>1</type>
+			<location>//home/ec2-user/environment/java-lesson/Lesson1-3/Lesson1_3.java</location>
+		</link>
+		<link>
 			<name>src/Lesson2.java</name>
 			<type>1</type>
 			<location>//home/ec2-user/environment/java-lesson/Lesson2.java</location>
+		</link>
+		<link>
+			<name>src/Lesson3.java</name>
+			<type>1</type>
+			<location>//home/ec2-user/environment/java-lesson/Lesson1-3/Lesson3.java</location>
+		</link>
+		<link>
+			<name>src/Lesson4.java</name>
+			<type>1</type>
+			<location>//home/ec2-user/environment/java-lesson/Lesson1-4/Lesson4.java</location>
+		</link>
+		<link>
+			<name>src/Practice-1.java</name>
+			<type>1</type>
+			<location>//home/ec2-user/environment/java-lesson/Lesson-1/Practice-1.java</location>
+		</link>
+		<link>
+			<name>src/Practice1.java</name>
+			<type>1</type>
+			<location>//home/ec2-user/environment/java-lesson/Lesson-1/Practice1.java</location>
 		</link>
 		<link>
 			<name>src/keisan1.java</name>
@@ -49,6 +84,11 @@
 			<name>src/lesson1.java</name>
 			<type>1</type>
 			<location>//home/ec2-user/environment/java-lesson/lesson1.java</location>
+		</link>
+		<link>
+			<name>src/practice-1.java</name>
+			<type>1</type>
+			<location>//home/ec2-user/environment/java-lesson/Lesson-1/practice-1.java</location>
 		</link>
 		<link>
 			<name>src/sample.java</name>
