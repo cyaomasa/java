@@ -1,7 +1,6 @@
 public class Lesson2 {
   public static void main (String[] args) {
-    int age;
-    age = 30;
-    System.out.println(age);
+    double weight = 60.8;
+    System.out.println(weight);
   }
 }
