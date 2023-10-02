@@ -1,0 +1,1 @@
+{"mime":"text/x-java-source","filter":false,"title":"Lesson2.java","tooltip":"/java-lesson/Lesson-1/Lesson2.java","ace":{},"undoManager":{"mark":-1,"position":-1,"stack":[]},"timestamp":1695359103147,"hash":"51fa25871145b8e4a6290430e12768b09c88bce1"}

@@ -16,24 +16,54 @@
 	</natures>
 	<linkedResources>
 		<link>
-			<name>src/ConcatSample1.java</name>
+			<name>src/Lesson1.java</name>
 			<type>1</type>
-			<location>//home/ec2-user/environment/java-lesson/ConcatSample1.java</location>
+			<location>/home/ec2-user/environment/java-lesson/Lesson1-3/Lesson1.java</location>
 		</link>
 		<link>
-			<name>src/keisan1.java</name>
+			<name>src/Lesson10.java</name>
 			<type>1</type>
-			<location>/home/ec2-user/environment/java-lesson/keisan1.java</location>
+			<location>/home/ec2-user/environment/java-lesson/Lesson1-2/Lesson10.java</location>
 		</link>
 		<link>
-			<name>src/lesoon1.java</name>
+			<name>src/Lesson2.java</name>
 			<type>1</type>
-			<location>/home/ec2-user/environment/java-lesson/lesoon1.java</location>
+			<location>/home/ec2-user/environment/java-lesson/Lesson1-2/Lesson2.java</location>
 		</link>
 		<link>
-			<name>src/sample.java</name>
+			<name>src/Lesson3.java</name>
 			<type>1</type>
-			<location>/home/ec2-user/environment/java-lesson/sample.java</location>
+			<location>/home/ec2-user/environment/java-lesson/Lesson1-3/Lesson3.java</location>
+		</link>
+		<link>
+			<name>src/Lesson4.java</name>
+			<type>1</type>
+			<location>/home/ec2-user/environment/java-lesson/Lesson1-4/Lesson4.java</location>
+		</link>
+		<link>
+			<name>src/Lesson8.java</name>
+			<type>1</type>
+			<location>/home/ec2-user/environment/java-lesson/Lesson1-4/Lesson8.java</location>
+		</link>
+		<link>
+			<name>src/Lesson9.java</name>
+			<type>1</type>
+			<location>/home/ec2-user/environment/java-lesson/Lesson1-3/Lesson9.java</location>
+		</link>
+		<link>
+			<name>src/Practice13.java</name>
+			<type>1</type>
+			<location>//home/ec2-user/environment/java-lesson/practice/Practice13.java</location>
+		</link>
+		<link>
+			<name>src/Practice7.java</name>
+			<type>1</type>
+			<location>/home/ec2-user/environment/java-lesson/practice/Practice7.java</location>
+		</link>
+		<link>
+			<name>src/Practice9.java</name>
+			<type>1</type>
+			<location>/home/ec2-user/environment/java-lesson/practice/Practice9.java</location>
 		</link>
 	</linkedResources>
 </projectDescription>

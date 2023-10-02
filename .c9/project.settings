@@ -18,6 +18,7 @@
         "@automaticShutdown": "30"
     },
     "language": {
+        "@warnLevel": "info",
         "tern_defs": {
             "json()": {
                 "browser": {

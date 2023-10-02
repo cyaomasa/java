@@ -16,84 +16,179 @@
 	</natures>
 	<linkedResources>
 		<link>
-			<name>src/ConcatSample1.java</name>
-			<type>1</type>
-			<location>/home/ec2-user/environment/java-lesson/ConcatSample1.java</location>
-		</link>
-		<link>
 			<name>src/Lesson1-3.java</name>
 			<type>1</type>
-			<location>//home/ec2-user/environment/java-lesson/Lesson1-3/Lesson1-3.java</location>
+			<location>/home/ec2-user/environment/java-lesson/Lesson1-3/Lesson1-3.java</location>
 		</link>
 		<link>
 			<name>src/Lesson1.3.java</name>
 			<type>1</type>
-			<location>//home/ec2-user/environment/java-lesson/Lesson1-3/Lesson1.3.java</location>
+			<location>/home/ec2-user/environment/java-lesson/Lesson1-3/Lesson1.3.java</location>
 		</link>
 		<link>
 			<name>src/Lesson1.java</name>
 			<type>1</type>
-			<location>//home/ec2-user/environment/java-lesson/Lesson-1/Lesson1.java</location>
+			<location>/home/ec2-user/environment/java-lesson/Lesson1-2/Lesson1.java</location>
 		</link>
 		<link>
-			<name>src/Lesson1_3.java</name>
+			<name>src/Lesson10.java</name>
 			<type>1</type>
-			<location>//home/ec2-user/environment/java-lesson/Lesson1-3/Lesson1_3.java</location>
+			<location>/home/ec2-user/environment/java-lesson/Lesson1-2/Lesson10.java</location>
+		</link>
+		<link>
+			<name>src/Lesson11.java</name>
+			<type>1</type>
+			<location>/home/ec2-user/environment/java-lesson/Lesson1-2/Lesson11.java</location>
+		</link>
+		<link>
+			<name>src/Lesson12.java</name>
+			<type>1</type>
+			<location>/home/ec2-user/environment/java-lesson/Lesson1-2/Lesson12.java</location>
+		</link>
+		<link>
+			<name>src/Lesson13.java</name>
+			<type>1</type>
+			<location>/home/ec2-user/environment/java-lesson/Lesson1-3/Lesson13.java</location>
+		</link>
+		<link>
+			<name>src/Lesson14.java</name>
+			<type>1</type>
+			<location>/home/ec2-user/environment/java-lesson/Lesson1-3/Lesson14.java</location>
+		</link>
+		<link>
+			<name>src/Lesson15.java</name>
+			<type>1</type>
+			<location>/home/ec2-user/environment/java-lesson/Lesson1-3/Lesson15.java</location>
 		</link>
 		<link>
 			<name>src/Lesson2.java</name>
 			<type>1</type>
-			<location>//home/ec2-user/environment/java-lesson/Lesson2.java</location>
+			<location>/home/ec2-user/environment/java-lesson/Lesson1-1/Lesson2.java</location>
 		</link>
 		<link>
 			<name>src/Lesson3.java</name>
 			<type>1</type>
-			<location>//home/ec2-user/environment/java-lesson/Lesson1-3/Lesson3.java</location>
+			<location>/home/ec2-user/environment/java-lesson/Lesson1-2/Lesson3.java</location>
 		</link>
 		<link>
 			<name>src/Lesson4.java</name>
 			<type>1</type>
-			<location>//home/ec2-user/environment/java-lesson/Lesson1-4/Lesson4.java</location>
+			<location>/home/ec2-user/environment/java-lesson/Lesson1-2/Lesson4.java</location>
+		</link>
+		<link>
+			<name>src/Lesson5.java</name>
+			<type>1</type>
+			<location>/home/ec2-user/environment/java-lesson/Lesson1-2/Lesson5.java</location>
+		</link>
+		<link>
+			<name>src/Lesson6.java</name>
+			<type>1</type>
+			<location>/home/ec2-user/environment/java-lesson/Lesson1-2/Lesson6.java</location>
+		</link>
+		<link>
+			<name>src/Lesson7.java</name>
+			<type>1</type>
+			<location>/home/ec2-user/environment/java-lesson/Lesson1-2/Lesson7.java</location>
+		</link>
+		<link>
+			<name>src/Lesson8.java</name>
+			<type>1</type>
+			<location>/home/ec2-user/environment/java-lesson/Lesson1-2/Lesson8.java</location>
+		</link>
+		<link>
+			<name>src/Lesson9.java</name>
+			<type>1</type>
+			<location>/home/ec2-user/environment/java-lesson/Lesson1-2/Lesson9.java</location>
 		</link>
 		<link>
 			<name>src/Practice-1.java</name>
 			<type>1</type>
-			<location>//home/ec2-user/environment/java-lesson/Lesson-1/Practice-1.java</location>
+			<location>/home/ec2-user/environment/java-lesson/Lesson-1/Practice-1.java</location>
 		</link>
 		<link>
 			<name>src/Practice1.java</name>
 			<type>1</type>
-			<location>//home/ec2-user/environment/java-lesson/Lesson-1/Practice1.java</location>
+			<location>/home/ec2-user/environment/java-lesson/practice/Practice1.java</location>
 		</link>
 		<link>
-			<name>src/keisan1.java</name>
+			<name>src/Practice10.java</name>
 			<type>1</type>
-			<location>/home/ec2-user/environment/java-lesson/keisan1.java</location>
+			<location>/home/ec2-user/environment/java-lesson/practice/Practice10.java</location>
+		</link>
+		<link>
+			<name>src/Practice11.java</name>
+			<type>1</type>
+			<location>/home/ec2-user/environment/java-lesson/practice/Practice11.java</location>
+		</link>
+		<link>
+			<name>src/Practice12.java</name>
+			<type>1</type>
+			<location>/home/ec2-user/environment/java-lesson/practice/Practice12.java</location>
+		</link>
+		<link>
+			<name>src/Practice13.java</name>
+			<type>1</type>
+			<location>//home/ec2-user/environment/java-lesson/practice/Practice13.java</location>
+		</link>
+		<link>
+			<name>src/Practice14.java</name>
+			<type>1</type>
+			<location>//home/ec2-user/environment/java-lesson/practice/Practice14.java</location>
+		</link>
+		<link>
+			<name>src/Practice2.java</name>
+			<type>1</type>
+			<location>/home/ec2-user/environment/java-lesson/practice/Practice2.java</location>
+		</link>
+		<link>
+			<name>src/Practice3.java</name>
+			<type>1</type>
+			<location>/home/ec2-user/environment/java-lesson/practice/Practice3.java</location>
+		</link>
+		<link>
+			<name>src/Practice4.java</name>
+			<type>1</type>
+			<location>/home/ec2-user/environment/java-lesson/practice/Practice4.java</location>
+		</link>
+		<link>
+			<name>src/Practice5.java</name>
+			<type>1</type>
+			<location>/home/ec2-user/environment/java-lesson/practice/Practice5.java</location>
+		</link>
+		<link>
+			<name>src/Practice6.java</name>
+			<type>1</type>
+			<location>/home/ec2-user/environment/java-lesson/practice/Practice6.java</location>
+		</link>
+		<link>
+			<name>src/Practice7.java</name>
+			<type>1</type>
+			<location>/home/ec2-user/environment/java-lesson/practice/Practice7.java</location>
+		</link>
+		<link>
+			<name>src/Practice8.java</name>
+			<type>1</type>
+			<location>/home/ec2-user/environment/java-lesson/practice/Practice8.java</location>
+		</link>
+		<link>
+			<name>src/Practice9.java</name>
+			<type>1</type>
+			<location>/home/ec2-user/environment/java-lesson/practice/Practice9.java</location>
+		</link>
+		<link>
+			<name>src/java.Lesson7.java</name>
+			<type>1</type>
+			<location>/home/ec2-user/environment/java-lesson/Lesson1-3/java.Lesson7.java</location>
 		</link>
 		<link>
 			<name>src/lesoon.java</name>
 			<type>1</type>
-			<location>//home/ec2-user/environment/java-lesson/lesoon.java</location>
-		</link>
-		<link>
-			<name>src/lesoon1.java</name>
-			<type>1</type>
-			<location>/home/ec2-user/environment/java-lesson/lesoon1.java</location>
-		</link>
-		<link>
-			<name>src/lesson1.java</name>
-			<type>1</type>
-			<location>//home/ec2-user/environment/java-lesson/lesson1.java</location>
+			<location>/home/ec2-user/environment/java-lesson/practice/lesoon.java</location>
 		</link>
 		<link>
 			<name>src/practice-1.java</name>
 			<type>1</type>
-			<location>//home/ec2-user/environment/java-lesson/Lesson-1/practice-1.java</location>
-		</link>
-		<link>
-			<name>src/sample.java</name>
-			<type>1</type>
-			<location>/home/ec2-user/environment/java-lesson/sample.java</location>
+			<location>/home/ec2-user/environment/java-lesson/Lesson-1/practice-1.java</location>
 		</link>
 	</linkedResources>
 </projectDescription>

@@ -6,49 +6,14 @@
     "auditLog": "/home/ec2-user/environment/.c9/Java/redhat.java/.55f3cac2f1edebf6c664c470cb203c1dbc904121-audit.json",
     "files": [
         {
-            "date": 1695283863869,
-            "name": "/home/ec2-user/environment/.c9/Java/redhat.java/client.log.2023-09-21",
-            "hash": "69abaf1380844db9c128411e122d4d6c"
+            "date": 1696162543598,
+            "name": "/home/ec2-user/environment/.c9/Java/redhat.java/client.log.2023-10-01",
+            "hash": "fa5c18ffb745b286bd0a47f858c65a82"
         },
         {
-            "date": 1695356456783,
-            "name": "/home/ec2-user/environment/.c9/Java/redhat.java/client.log.2023-09-22",
-            "hash": "114766fe83421e0b95b914f4c38fc66b"
-        },
-        {
-            "date": 1695357919413,
-            "name": "/home/ec2-user/environment/.c9/Java/redhat.java/client.log.2023-09-22.1",
-            "hash": "44c5cbbc2869ed84932b37e1698009ea"
-        },
-        {
-            "date": 1695357975660,
-            "name": "/home/ec2-user/environment/.c9/Java/redhat.java/client.log.2023-09-22.2",
-            "hash": "2c3d6db1adf82b073d37657eca359373"
-        },
-        {
-            "date": 1695358019194,
-            "name": "/home/ec2-user/environment/.c9/Java/redhat.java/client.log.2023-09-22.3",
-            "hash": "c89acbc5c160837c44a95580aa3530d3"
-        },
-        {
-            "date": 1695358915526,
-            "name": "/home/ec2-user/environment/.c9/Java/redhat.java/client.log.2023-09-22.4",
-            "hash": "f903953e3310437b8f43721f653646fc"
-        },
-        {
-            "date": 1695359465749,
-            "name": "/home/ec2-user/environment/.c9/Java/redhat.java/client.log.2023-09-22.5",
-            "hash": "080f0ff1ac57852b625523d17e0dfe8e"
-        },
-        {
-            "date": 1695360366206,
-            "name": "/home/ec2-user/environment/.c9/Java/redhat.java/client.log.2023-09-22.6",
-            "hash": "75b115cff6a641bd32a23e014643b8cb"
-        },
-        {
-            "date": 1695361386868,
-            "name": "/home/ec2-user/environment/.c9/Java/redhat.java/client.log.2023-09-22.7",
-            "hash": "1e574ec2b942f4f4f92c1996b9947c93"
+            "date": 1696234723629,
+            "name": "/home/ec2-user/environment/.c9/Java/redhat.java/client.log.2023-10-02",
+            "hash": "505c9c8efd570fdc94f2f782886890b1"
         }
     ]
 }
