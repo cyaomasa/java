@@ -1,12 +1,12 @@
 public class Lesson11 {
-  public static int add(int x, int y) {
-    return x + y;
+  // int型配列を受け取り、すべての要素を表示するメソッド
+  public static void printArray(int[] array) {
+    for (int element : array) {
+      System.out.println(element);
+    }
   }
-  public static int add(int x, int y, int z) {
-    return x + y + z;
-  }
-  public static void main(String[] args){
-    System.out.println("10+20=" + add(10, 20));
-    System.out.println("10+20+30=" + add(10, 20, 30));
+  public static void main(String[] args) {
+    int[] array = {1, 2, 3};
+    printArray(array);    // 配列を渡す
   }
 }

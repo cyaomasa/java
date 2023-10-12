@@ -1,12 +1,14 @@
 public class Lesson14 {
-  // int型配列を受け取り、すべての要素を表示するメソッド
-  public static void printArray(int[] array) {
-    for (int element : array) {
-      System.out.println(element);
-    }
-  }
   public static void main(String[] args) {
-    int[] array = {1, 2, 3};
-    printArray(array);    // 配列を渡す
+    int a = 10; int b = 2;
+    int total = tasu(a, b);
+    int delta = hiku(a, b);
+    System.out.println("足すと" + total + "、引くと" + delta);
+  }
+  public static int tasu(int a, int b) {
+    return (a + b);
+  }
+  public static int hiku(int a, int b) {
+    return (a - b);
   }
 }
