@@ -10,7 +10,7 @@ public class Test9 {
         System.out.print(",");
       }
     }
-    for (int i = 1; i <= 19; i++) {
+    for (int i = 11; i <= 19; i++) {
       System.out.println(number[i]);
       if (i % 2 == 0) {
         System.out.print(",");
